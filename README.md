@@ -1,2 +1,2 @@
-# first-project
-html/css
+Первый лендинг на html/css.
+
