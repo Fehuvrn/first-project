@@ -6,6 +6,11 @@ body {
 	padding: 0;
     margin: 0;
     color: #201b2d;
+    overflow-x: hidden;
+}
+
+.animated {
+    opacity: 0;
 }
 
 div, p, input, button, form, span, a, ul, li, footer {

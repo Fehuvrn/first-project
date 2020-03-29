@@ -7,13 +7,14 @@
     <title>First project</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans|Ubuntu:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-           <img src="img/logo.png" alt="logo" class="header__logo">
+           <img src="img/logo.png" alt="logo" class="header__logo  animated fadeInDown">
            <div class="header__wrapper">
-               <div class="wrapper__dream">
+               <div class="wrapper__dream animated fadeInLeft">
                    <h1 class="wrapper__title">С помощью верстки <br>
                     я создам ту жизнь, о которой
                     <span class="wrapper__title--big">мечтаю!</span></h1>
@@ -22,17 +23,17 @@
                    <a href="#" class="btn">Двигаться к мечте!
                 </a>
                </div>
-               <img src="img/travel.png" alt="treavel" class="wrapper__travel">
+               <img src="img/travel.png" alt="treavel" class="wrapper__travel  animated fadeInRight">
            </div>
         </div>
     </header>
 
     <section class="future">
         <div class="container">
-            <h2 class="future__title">Что меня ждет впереди
+            <h2 class="future__title animated">Что меня ждет впереди
             </h2>
             <div class="future__list">
-                <div class="list__item">
+                <div class="list__item animated">
                     <h3 class="item__title">
                         Свободное время
                     </h3>
@@ -40,7 +41,7 @@
                         Мне нужно свободное время на семью и самое настоящее
                     </p>
                 </div>
-                <div class="list__item list__item--tree">
+                <div class="list__item list__item--tree animated">
                     <h3 class="item__title">
                         Яркие путешествия
                     </h3>
@@ -48,7 +49,7 @@
                         Работать откуда угодно - что может быть лучше?
                     </p>
                 </div>
-                <div class="list__item list__item--rocket">
+                <div class="list__item list__item--rocket animated">
                     <h3 class="item__title">
                         Создание ценности
                     </h3>
@@ -62,10 +63,10 @@
 
     <section class="form">
         <div class="container">
-            <h3 class="form__title">
+            <h3 class="form__title animated">
                 Форма заказа билета в будудщее
             </h3>
-            <form action="" class="form__email">
+            <form action="" class="form__email animated">
                 <input type="text" class="form__input" placeholder="Имя" name="name">
                 <input type="email" class="form__input" placeholder="E-mail" name="email">
                 <input type="tel" class="form__input" placeholder="Телефон" name="phone">
@@ -82,7 +83,8 @@
             </p>
         </div>
     </footer>
-
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
 
