@@ -119,16 +119,16 @@ header {
 .list__item {
     width: 300px;
     text-align: center;
-    background: url(img/time.png) no-repeat 50% top;
+    background: url('../img/time.png') no-repeat 50% top;
     padding-top: 80px;
 }
 
 .list__item--tree {
-    background: url(img/tree.png) no-repeat 50% top;
+    background: url('../img/tree.png') no-repeat 50% top;
 }
 
 .list__item--rocket {
-    background: url(img/rocket.png) no-repeat 50% top;
+    background: url('../img/rocket.png') no-repeat 50% top;
 }
 
 .form {
